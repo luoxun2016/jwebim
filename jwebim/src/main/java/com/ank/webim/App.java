@@ -2,6 +2,9 @@ package com.ank.webim;
 
 import org.apache.log4j.Logger;
 
+import com.ank.webim.proxy.ProxyBootstrap;
+import com.ank.webim.server.ServerBootstrap;
+
 public class App {
 	private static final Logger LOG = Logger.getLogger(App.class);
 	
